@@ -1,0 +1,25 @@
+.item{
+    position: relative;
+    border:  1px solid var(--var-main);
+    border-radius: 6px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.item::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: orange;
+    z-index: 2;
+    transform: translateX(-40%) translateY(-30%);
+    transition: all .3s;
+}
+.item::after:hover{
+    width: 1000px;
+    height: 100px;
+    background: rgb(255, 0, 0);
+}

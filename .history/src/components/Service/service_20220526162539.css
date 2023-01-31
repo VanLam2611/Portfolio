@@ -1,0 +1,10 @@
+#service .sub-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#service .service-item .icon i{
+    font-size: 52px;
+    color: var(--var-main);
+}

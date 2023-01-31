@@ -1,0 +1,6 @@
+#portfolio .port-item .card .img-product{
+    width: 100%;
+}
+#portfolio .port-item .card .img-product img{
+    height: 250px;
+}

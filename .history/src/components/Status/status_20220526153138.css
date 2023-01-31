@@ -1,0 +1,8 @@
+#status{
+    color: #000;
+}
+#status .banner-status{
+    padding: 100px 0;
+    background-image: url('https://1.bigdata-vn.com/wp-content/uploads/2021/10/Background-dep-don-gian-lam-hinh-nen-hoac-thiet-ke.jpg');
+    height: 100%;
+}

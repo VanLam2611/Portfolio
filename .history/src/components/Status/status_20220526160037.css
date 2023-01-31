@@ -1,0 +1,42 @@
+#status{
+    color: #fff;
+}
+#status .banner-status{
+    position: relative;
+    padding: 100px 0;
+    height: 100%;
+}
+#status .banner-status::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .5);
+    z-index: -1;
+}
+#status .banner-status::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://1.bigdata-vn.com/wp-content/uploads/2021/10/Background-dep-don-gian-lam-hinh-nen-hoac-thiet-ke.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+#status .banner-status .icon i{
+    font-size: 52px;
+    color: var(--var-main); 
+}
+#status .banner-status .status-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+#service .sub-card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#service .service-item{
+
+}

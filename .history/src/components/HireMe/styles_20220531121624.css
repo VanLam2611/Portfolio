@@ -1,0 +1,12 @@
+#hireme .content{
+    background: var(--var-main);
+    padding: 40px 0;
+}
+#hireme .content .sub-content{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+#hireme .content .sub-content .btn-more{
+    color: #fff;
+}

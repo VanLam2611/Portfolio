@@ -1,0 +1,16 @@
+#service .sub-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#service .service-item .icon i{
+    font-size: 52px;
+    color: var(--var-main);
+    margin-bottom: 20px;
+}
+#service .service-item .job{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+}

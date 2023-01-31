@@ -1,0 +1,26 @@
+#service .sub-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 15px 15px;
+    transition: .3s;
+}
+#service .sub-card:hover{
+    border: 2px solid var(--var-main);
+}
+#service .service-item .icon i{
+    font-size: 52px;
+    color: var(--var-main);
+    margin-bottom: 20px;
+}
+#service .service-item .job{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#service .service-item .sub{
+    color: var(--var-text);
+}
