@@ -3,9 +3,6 @@ import './App.css';
 import Home from './screens/Home';
 import About from './screens/About';
 import Page from "./components/Page";
-import $ from "jquery";
-// import 'boxicons'
-
 
 function App() {
   return (

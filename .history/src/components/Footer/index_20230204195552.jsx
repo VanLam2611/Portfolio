@@ -20,7 +20,7 @@ const Footer = ({temp}) => {
                     </div>
                 </div>
             </div>
-            <a className='back_top' href="#top"></a>
+            {/* <a className='back_top' href="#top"></a> */}
         </div>
     )
 }

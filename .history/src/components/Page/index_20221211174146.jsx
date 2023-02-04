@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { withRouter, useLocation } from "react-router-dom";
 import { clearAllBodyScrollLocks } from "body-scroll-lock";
 import Header from "../Header";
 import Footer from "../Footer";
